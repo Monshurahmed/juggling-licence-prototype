@@ -45,7 +45,38 @@
 
       <a href="/juggling-balls" role="button" class="govuk-button govuk-button--start govuk-!-margin-top-2 govuk-!-margin-bottom-8">Start now</a>
 
-      <h2 class="govuk-heading-m">Before you start</h2>
+      <h2 class="govuk-heading-m">Before you start, please review the list of items</h2>
+      <div class="govuk-form-group">
+  <fieldset class="govuk-fieldset" aria-describedby="waste-hint">
+    <legend class="govuk-fieldset__legend govuk-fieldset__legend--xl">
+
+    </legend>
+    <span id="waste-hint" class="govuk-hint">
+      Select all that apply.
+    </span>
+    <div class="govuk-checkboxes">
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-1" name="waste" type="checkbox" value="carcasses">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-1">
+          I have a red ball
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-2" name="waste" type="checkbox" value="mines">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-2">
+          I have a blue ball
+        </label>
+      </div>
+      <div class="govuk-checkboxes__item">
+        <input class="govuk-checkboxes__input" id="waste-3" name="waste" type="checkbox" value="farm">
+        <label class="govuk-label govuk-checkboxes__label" for="waste-3">
+          I have a green ball
+        </label>
+      </div>
+
+  </fieldset>
+</div>
+<p> Please select start new if you have selected all three <p>
 
       <p>You can also <a href="#">register by post</a>.</p>
 
